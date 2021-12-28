@@ -58,7 +58,7 @@ header .link-item li a{
 main .container{
     height: 600px;
     display: flex;
-    background-color: rgb(3, 3, 112);
+    background-color: #0D0B26
 }
 
 main .jumbotron{
@@ -125,4 +125,55 @@ main .link-item i{
 main .link-item .number{
     margin-left: 10px;
     font-size: 14px;
+}
+
+main .title-jumbo-second{
+    display: flex;
+    margin-top: 15px;
+    color: rgb(192, 186, 186);
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+main .btn-piani{
+    display: flex;
+    margin-top: 20px;
+}
+
+main .plans{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+    border: 2px solid #009CFF;
+    background-color: #223942;
+}
+
+main .plans #vo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #009CFF;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+main .plans #pa{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+main .plans.two #pa{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+main .plans.one{
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+}
+
+main .plans.two{
+    width: 50%;
 }
