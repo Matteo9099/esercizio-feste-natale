@@ -12,7 +12,7 @@ body{
 /* header */
 header .row{
     display: flex;
-    height: 50px;
+    height: 30px;
     align-items: center;
     justify-content: flex-end;
     background-color: #000;
@@ -25,15 +25,15 @@ header .row .contact{
 }
 
 header .row .contact li a{
-    color: #fff;
     text-decoration: none;
     padding: 0 10px;
     color: gray;
+    font-size: 15px;
 }
 
 header .row-title{
     display: flex;
-    height: 70px;
+    height: 60px;
     align-items: center;
     justify-content: flex-start;
     background-color: #000;
@@ -50,13 +50,14 @@ header .link-item li a{
     color: #fff;
     text-decoration: none;
     padding: 0 20px;
+    font-size: 15px;
 }
 /* header */
 
 
 /* main */
 main .container{
-    height: 600px;
+    height: 100vh;
     display: flex;
     background-color: #0D0B26
 }
@@ -71,6 +72,7 @@ main .jumbotron{
 main .jumbo-text{
     margin-left: 60px;
     margin-top: 50px;
+    width: 600px;
 }
 
 main .title-jumbo{
@@ -146,6 +148,7 @@ main .plans{
     padding: 0 50px 50px 50px;
     border: 2px solid #009CFF;
     background-color: #223942;
+    border-radius: 10px;
 }
 
 main .plans #vo{
@@ -171,9 +174,15 @@ main .plans.two #pa{
 
 main .plans.one{
     width: calc(100% / 2 - 20px);
-    margin: 0 10px;
+    margin: 0 10px 0 0;
 }
 
 main .plans.two{
     width: 50%;
+}
+
+main .text{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(216, 213, 213);
 }
