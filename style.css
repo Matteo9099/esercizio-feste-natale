@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* header */
+header .row{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #000;
+}
+
+header .row .contact{
+    display: flex;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+header .row .contact li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+}
+
+header .row-title{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #000;
+}
+
+header .link-item{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    list-style-type: none;
+}
+
+header .link-item li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+/* header */
+
+
+/* main */
+main .container{
+    height: 600px;
+    display: flex;
+    background-color: rgb(3, 3, 112);
+}
+
+main .jumbotron{
+    background-image: url('https://www.coreldraw.com/static/cdgs/product_content/cdgs/2021/dragon.png');
+    width: 45%;
+    height: 100%;
+    background-position: right;
+}
+
+main .jumbo-text{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+main .title-jumbo{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+main .title-jumbo .titolo{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+main .title-jumbo span{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+
+main .recensioni{
+    margin-top: 20px;
+    display: flex;
+}
+
+main .recensioni .prova{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+main .link-item{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+main .link-item li a{
+    color: #fff;
+    padding: 0 2px;
+    text-decoration: none;
+}
+
+main .link-item i{
+    color: yellow;
+}
+
+main .link-item .number{
+    margin-left: 10px;
+    font-size: 14px;
+}
